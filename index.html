@@ -13,17 +13,25 @@
 
   <!-- ==================== 左栏：名片 ==================== -->
   <aside class="card profile">
-    <img class="profile__photo" src="assets/avatar.jpg" alt="黄海宁 证件照">
+    <div class="profile__avatar">
+      <img class="profile__photo" src="assets/avatar.jpg" alt="黄海宁 证件照">
+    </div>
 
     <h1 class="profile__name">黄海宁</h1>
     <p class="profile__title">对外经济贸易大学 · 会计专硕（在读）</p>
-    <p class="profile__sub">求职意向：财务 / 审计 / 金融　　期望城市：西安、北京</p>
+
+    <dl class="facts">
+      <div><dt>求职意向</dt><dd>财务 / 审计 / 金融</dd></div>
+      <div><dt>期望城市</dt><dd>西安、北京</dd></div>
+      <div><dt>政治面貌</dt><dd>中共党员</dd></div>
+      <div><dt>籍贯</dt><dd>陕西省西安市</dd></div>
+    </dl>
 
     <div class="stats">
-      <div><b>576</b><span>CET-6 成绩</span></div>
+      <div><b>6 / 144</b><span>硕士专业排名</span></div>
       <div><b>92.05</b><span>硕士均分（前 5%）</span></div>
+      <div><b>576</b><span>CET-6 成绩</span></div>
       <div><b>5 段</b><span>财务相关实习</span></div>
-      <div><b>470+</b><span>支教授课课时</span></div>
     </div>
 
     <dl class="contact">
@@ -40,27 +48,27 @@
     <nav class="nav">
       <a href="#about">关于我</a>
       <a href="#edu">教育背景</a>
-      <a href="#research">科研与论文</a>
-      <a href="#competition">竞赛项目</a>
       <a href="#honor">荣誉奖项</a>
+      <a href="#intern">实习经历</a>
+      <a href="#competition">竞赛项目</a>
+      <a href="#files">项目文件</a>
+      <a href="#research">科研与论文</a>
       <a href="#campus">学生工作</a>
+      <a href="#volunteer">志愿与实践</a>
       <a href="#skill">技能与证书</a>
       <a href="#hobby">兴趣爱好</a>
-      <a href="#intern">实习经历</a>
-      <a href="#volunteer">志愿与实践</a>
-      <a href="#files">项目文件</a>
     </nav>
   </aside>
 
   <!-- ==================== 右栏：内容 ==================== -->
   <main class="main">
 
-    <section class="section" id="about">
+    <section class="section section--about" id="about">
       <h2>关于我</h2>
-      <p>对外经济贸易大学会计专硕在读（2027 年 6 月毕业），本科就读于同校国际商学院会计学。工作中认真负责、踏实可靠，具有优秀的沟通能力、组织能力与协作能力，有团队精神，性格活泼开朗、适应能力强。</p>
-      <p>五段实习覆盖会计师事务所审计、券商研究与战略、信托结构金融、互联网财务风控，习惯把课堂上的分析框架落到真实业务问题上。在校期间担任会计专硕第一党支部宣传委员、校研究生会学生骨干、校融媒体中心采编部副部长、校国旗护卫队副队长等职务，并作为西部计划研究生支教团甘肃分团团长在甘肃靖远服务一年。</p>
-      <p>多才多艺，擅长钢琴、唱歌、朗诵等，具备推送制作、剪映编辑等技能。在校期间参与研马工程、青马工程学习，作为研代会代表提案，参与清华大学节能降碳管理项目、新加坡社科大学商业实践项目等交流学习。</p>
-      <p>热心实践，乐于助人，参与杭州亚运会鸟巢欢乐跑、国际文化节展区、首开寸草养老院敬老等多项志愿活动，累计服务时长 300 余小时。</p>
+      <p>对外经济贸易大学<strong>会计专硕</strong>在读（2027 年 6 月毕业），本科<strong>保研</strong>于同校国际商学院会计学。工作中认真负责、踏实可靠，具有优秀的沟通能力、组织能力与协作能力，有团队精神，性格活泼开朗、适应能力强。</p>
+      <p><strong>五段实习</strong>覆盖会计师事务所审计、券商研究与战略、信托结构金融、互联网财务风控，习惯把课堂上的分析框架落到真实业务问题上。在校期间担任<strong>会计专硕第一党支部宣传委员</strong>、校研究生会学生骨干、校融媒体中心采编部副部长、<strong>校国旗护卫队副队长</strong>等职务，并作为<strong>西部计划研究生支教团甘肃分团团长</strong>在甘肃靖远服务一年。</p>
+      <p>多才多艺，擅长<strong>钢琴、唱歌、朗诵</strong>，具备推送制作、剪映编辑等技能。在校期间参与研马工程、青马工程学习，作为研代会代表提案，参与清华大学节能降碳管理项目、新加坡社科大学商业实践项目等交流学习。</p>
+      <p>热心实践，乐于助人，参与杭州亚运会鸟巢欢乐跑、国际文化节展区、首开寸草养老院敬老等多项志愿活动，累计服务时长 <strong>300 余小时</strong>。</p>
     </section>
 
     <section class="section" id="edu">
@@ -71,7 +79,8 @@
           <h3 class="item__title">对外经济贸易大学 · 国际商学院 · 会计（硕士，保研）</h3>
           <span class="item__meta">2025.09 – 2027.06</span>
         </div>
-        <p class="item__sub">成绩 92.05 / 100（专业排名前 5%）</p>
+        <p class="item__sub">成绩 92.05 / 100 ｜ 专业排名 6 / 144（前 5%）</p>
+        <p class="item__course"><span class="lbl">主修课程</span>管理会计理论与实务、财务会计理论与实务、财务管理理论与实务、资本市场理论与实务、高级财务分析、舞弊审计与社会责任专题、全面预算管理</p>
       </div>
 
       <div class="item">
@@ -80,107 +89,15 @@
           <span class="item__meta">2020.09 – 2024.06</span>
         </div>
         <p class="item__sub">成绩 85.40 / 100（专业排名前 35%）</p>
-      </div>
-    </section>
-
-    <section class="section" id="research">
-      <h2>科研与论文</h2>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">硕士学位论文：《“一带一路”倡议如何影响中国企业财务风险》</h3>
-          <span class="item__meta">指导教师：杨道广</span>
-        </div>
-        <ul>
-          <li>以沪深 A 股 2010—2022 年数据为样本，采用双重差分法（DID）识别“一带一路”倡议对企业财务风险的净效应。</li>
-          <li>从创新成本、信息披露、对外投资三条作用机制检验影响路径，数据来源为 CSMAR 与同花顺。</li>
-        </ul>
+        <p class="item__course"><span class="lbl">主修课程</span>中级财务会计、高级财务会计、企业财务报表分析、审计沙盘模拟、大数据与审计学、内部控制与大数据应用、业财融合管理会计、商务会计与税务筹划</p>
       </div>
 
       <div class="item">
         <div class="item__head">
-          <h3 class="item__title">第十二届 MPAcc 学生案例大赛 · 参赛项目</h3>
+          <h3 class="item__title">西安高新第一中学（高中）</h3>
+          <span class="item__meta">2017.09 – 2020.07</span>
         </div>
-        <p class="item__sub">围绕真实企业案例完成财务分析与管理诊断，形成案例分析报告。</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">本科毕业论文 · 指导教师：刘慧龙</h3>
-        </div>
-        <p class="item__sub">研究方向为财务会计与公司治理。</p>
-      </div>
-    </section>
-
-    <section class="section" id="competition">
-      <h2>竞赛项目</h2>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">“尖烽时刻”全国商业模拟大赛 · 国家级三等奖</h3>
-          <span class="item__meta">2026.04</span>
-        </div>
-        <ul>
-          <li>市场调研与产品决策：完成多市场调研与竞品对比分析，参与产品定价与经营策略制定，主导设计的虚拟汽车等产品实现较高盈利。</li>
-          <li>财务分析与战略优化：制作并分析模拟财务报表，动态追踪现金流量、股价及 ESG 水平并持续优化，股价在模拟市场内排名第一。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">“正大杯”全国大学生市场调查与分析大赛 · 省部级二等奖</h3>
-          <span class="item__meta">2026.04</span>
-        </div>
-        <p class="item__sub">课题：惜食新经济——“剩菜盲盒”消费者价值感知与行业优化路径</p>
-        <ul>
-          <li>混合研究与数据采集：采用社交媒体爬虫 + 问卷调查 + 深度访谈 + 焦点小组三角验证方法；通过 Python 爬取微博、小红书等平台相关博文 4167 条，清洗后获有效文本 1592 条；独立设计并回收问卷 426 份，有效问卷 387 份，有效回收率 90.85%；完成消费者 6 名、商家及平台从业者 4 名、专家学者 2 名深度访谈，并组织 1 组高校大学生焦点小组访谈。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">全国大学生电子商务“创新、创意及创业”挑战赛 · 省部级二等奖</h3>
-          <span class="item__meta">2026.07</span>
-        </div>
-        <p class="item__sub">项目：云栖数智——“代运营 + IP 孵化 + 人才培育”三轮驱动乡村文旅破圈</p>
-        <ul>
-          <li>痛点洞察与模式创新：针对乡村文旅“有资源无流量、有内容无传播、有特色无品牌、有运营缺人才”的困境，构建代运营 + IP 孵化 + 人才培育三轮驱动模式，形成从账号运营、品牌打造到本土人才孵化的全链路解决方案，获省级二等奖、校级一等奖。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">“挑战杯”首都大学生创业计划竞赛“青振京郊”乡村振兴专项赛 · 省部级三等奖</h3>
-          <span class="item__meta">2026.06</span>
-        </div>
-        <p class="item__sub">项目：四海传声——从账号代运营到人才培训的一站式孵化器</p>
-        <ul>
-          <li>农产品电商运营与区域品牌化实践：围绕甜糯玉米、食用菊花、林下蜂蜜等特色农产品，设计线上电商、B 端团购、文旅场景三渠道联动方案，推动产品礼盒化、品牌化与订单常态化。</li>
-          <li>参与规划以销定产的供应链协同机制，通过订单数据反向指导种植计划，降低集中上市滞销风险与物流成本，助力打造“四海甄选”区域公共品牌。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">“挑战杯”首都大学生课外学术科技作品竞赛 · 省部级三等奖</h3>
-        </div>
-        <ul>
-          <li>研究设计与多维调研：以 Tape 匿名提问箱为切口，聚焦大学生匿名社交行为与心理机制，采用文献梳理、问卷调查、内容分析等方法，构建覆盖行为特征、心理动机与社交影响的多维调研体系。</li>
-          <li>数据采集与定量分析：线上线下多渠道发放问卷，回收有效问卷 384 份，从使用频次、提问动机、坦诚程度、社交影响等维度进行量化刻画，并对问答实例进行内容分析与分类编码。</li>
-          <li>理论建模与学术创新：参考马斯洛需求层级理论，构建“娱乐消遣—沟通交流—自我价值探索”大学生匿名社交需求金字塔模型；结合戈夫曼自我呈现理论分析印象管理、关系模糊化与隐私边界问题。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">志愿项目设计大赛 · 校级二等奖</h3>
-          <span class="item__meta">2026.06</span>
-        </div>
-        <p class="item__sub">项目：商启乡兴——商科启蒙支教与乡村振兴实践计划</p>
-        <ul>
-          <li>课程研发与线上启蒙：参与搭建阶梯式课程体系，负责小学职业规划启蒙、初中模拟经营与市场跳蚤、高中项目孵化与电商短视频实战等模块的内容研发与教案撰写；线上常态化支教周期为 2026 年 3 月至 6 月，采用“授课—反馈—优化”闭环持续迭代。</li>
-          <li>线下深耕与调研支持：参与寒暑假沉浸式支教与调研方案设计，采用“2 节理论课 + 1 节实践课”的 2+1 课程结构，组织高中生与乡村青年结对分组调研，产出《专项调研报告》。</li>
-        </ul>
+        <p class="item__sub">担任班级团支部书记、校学生会文宣部委员；获评校“学习之星”“优秀志愿者”。</p>
       </div>
     </section>
 
@@ -199,98 +116,6 @@
         <li>综合三等奖学金（2021.05、2022.12）</li>
         <li>大学生志愿服务西部计划 · 优秀志愿者（2025.07）</li>
       </ul>
-    </section>
-
-    <section class="section" id="campus">
-      <h2>学生工作</h2>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">会计专硕第一党支部 · 宣传委员</h3>
-          <span class="item__meta">2025.09 – 2026.09</span>
-        </div>
-        <p class="item__sub">党建宣传：负责支部党建宣传与新媒体运营，完成宣传及推送 10 余次，带领支部开展学习实践并获得党支部风采展示大赛二等奖。</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">校研究生会 · 学生骨干</h3>
-          <span class="item__meta">2025.09 – 2026.06</span>
-        </div>
-        <ul>
-          <li>统筹协调：作为大型论坛外联主要负责人联络 20 所高校，邀请 13 名校内外嘉宾报告，协调总进度并策划分论坛，覆盖人数 300+。</li>
-          <li>活动组织：策划组织模拟面试、公考讲座、企业走访 3 场校级职业发展活动，联络赞助价值约 2000 元，获评“优秀研会成员”。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">校党委宣传部直属融媒体中心 · 采编部副部长</h3>
-          <span class="item__meta">2021.09 – 2022.09</span>
-        </div>
-        <p class="item__sub">内容编审：负责校报二版排版、编辑与校对，运营对外经济贸易大学新闻网后台，完成编发审核稿件 50 余次，保障内容规范准确。</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">校国旗护卫队 · 副队长</h3>
-          <span class="item__meta">2022.09 – 2023.09</span>
-        </div>
-        <ul>
-          <li>日常勤务与仪式执行：累计完成日常升降旗 80 余次；牵头组织并参与“一二九”升旗、运动会出旗等大型仪式活动，主持换届仪式，统筹人员调度、流程彩排与现场执行，保障各项仪式零差错完成。</li>
-          <li>团队建设与人才培养：负责队伍招新、新成员发展、日常训练与梯队培养，协助队长开展日常管理、考勤记录与任务分配。</li>
-          <li>主题活动与国防教育：组织退伍学生宣讲、国家安全宣传等主题活动，提升校园国防意识与爱国氛围。</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">国际商学院 20 级年级工作部 · 委员</h3>
-          <span class="item__meta">2020.09 – 2024.06</span>
-        </div>
-        <ul>
-          <li>综合测评组织：连续三年协助年级综合评定工作，对接 2 个班级的综合加分材料收集与初审，建立材料清单与审核台账。</li>
-          <li>加分材料审核：依据学院综测细则，对加分证明材料逐项核验，比对证书、活动记录等原始凭证，识别并修正漏报、错报、重复加分等问题。</li>
-          <li>数据统计与公示：运用 Excel 对加分数据进行汇总、排序与复核，协助完成成绩核算与结果公示。</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="skill">
-      <h2>技能与证书</h2>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">语言能力</h3>
-        </div>
-        <p class="item__sub">
-          <span class="tag">CET-6 576 分</span>
-          <span class="tag">CET-4 542 分</span>
-          <span class="tag">普通话一级乙等 93.4</span>
-        </p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title">专业技能</h3>
-        </div>
-        <p class="item__sub">
-          <span class="tag">全国计算机等级考试二级</span>
-          <span class="tag">会计专业技术初级资格</span>
-          <span class="tag">中职会计教师资格</span>
-          <span class="tag">初中数学教师资格</span>
-          <span class="tag">C1 驾驶证</span>
-        </p>
-        <ul>
-          <li>熟练使用 Excel 数据透视表、VLOOKUP、MATCH 处理大批量财务数据；熟悉 SAP、久其等财务软件。</li>
-          <li>具备微信公众号推送制作与剪映视频剪辑能力；能独立完成会议记录、绩效自评报告与预算报告撰写。</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="hobby">
-      <h2>兴趣爱好</h2>
-      <p class="section__lead">钢琴、声乐、朗诵。</p>
     </section>
 
     <section class="section" id="intern">
@@ -356,6 +181,216 @@
       </div>
     </section>
 
+    <section class="section" id="competition">
+      <h2>竞赛项目</h2>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">“尖烽时刻”全国商业模拟大赛 · 国家级三等奖</h3>
+          <span class="item__meta">2026.04</span>
+        </div>
+        <ul>
+          <li>市场调研与产品决策：完成多市场调研与竞品对比分析，参与产品定价与经营策略制定，主导设计的虚拟汽车等产品实现较高盈利。</li>
+          <li>财务分析与战略优化：制作并分析模拟财务报表，动态追踪现金流量、股价及 ESG 水平并持续优化，股价在模拟市场内排名第一。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">全国大学生电子商务“创新、创意及创业”挑战赛 · 省部级二等奖</h3>
+          <span class="item__meta">2026.07</span>
+        </div>
+        <p class="item__sub">项目：云栖数智——“代运营 + IP 孵化 + 人才培育”三轮驱动乡村文旅破圈</p>
+        <ul>
+          <li>痛点洞察与模式创新：针对乡村文旅“有资源无流量、有内容无传播、有特色无品牌、有运营缺人才”的困境，构建代运营 + IP 孵化 + 人才培育三轮驱动模式，形成从账号运营、品牌打造到本土人才孵化的全链路解决方案，获省级二等奖、校级一等奖。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">“挑战杯”首都大学生创业计划竞赛“青振京郊”乡村振兴专项赛 · 省部级三等奖</h3>
+          <span class="item__meta">2026.06</span>
+        </div>
+        <p class="item__sub">项目：四海传声——从账号代运营到人才培训的一站式孵化器</p>
+        <ul>
+          <li>农产品电商运营与区域品牌化实践：围绕甜糯玉米、食用菊花、林下蜂蜜等特色农产品，设计线上电商、B 端团购、文旅场景三渠道联动方案，推动产品礼盒化、品牌化与订单常态化。</li>
+          <li>参与规划以销定产的供应链协同机制，通过订单数据反向指导种植计划，降低集中上市滞销风险与物流成本，助力打造“四海甄选”区域公共品牌。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">志愿项目设计大赛 · 校级二等奖</h3>
+          <span class="item__meta">2026.06</span>
+        </div>
+        <p class="item__sub">项目：商启乡兴——商科启蒙支教与乡村振兴实践计划</p>
+        <ul>
+          <li>课程研发与线上启蒙：参与搭建阶梯式课程体系，负责小学职业规划启蒙、初中模拟经营与市场跳蚤、高中项目孵化与电商短视频实战等模块的内容研发与教案撰写；线上常态化支教周期为 2026 年 3 月至 6 月，采用“授课—反馈—优化”闭环持续迭代。</li>
+          <li>线下深耕与调研支持：参与寒暑假沉浸式支教与调研方案设计，采用“2 节理论课 + 1 节实践课”的 2+1 课程结构，组织高中生与乡村青年结对分组调研，产出《专项调研报告》。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">第十二届 MPAcc 学生案例大赛 · 参赛项目</h3>
+        </div>
+        <p class="item__sub">围绕真实企业案例完成财务分析与管理诊断，形成案例分析报告。</p>
+      </div>
+    </section>
+
+    <section class="section" id="files">
+      <h2>项目文件</h2>
+      <p class="section__lead">以下为本人参与完成的项目文件，点击标题可在线阅读或下载 PDF（新标签页打开）。含他人联系方式的部分已做脱敏处理。</p>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/zhengdabei-shitiao.pdf" target="_blank" rel="noopener">“正大杯”全国大学生市场调查与分析大赛 · 研究报告</a></h3>
+          <span class="item__meta">81 页 · 6.1 MB</span>
+        </div>
+        <p class="item__sub">惜食新经济——“剩菜盲盒”消费者价值感知与行业优化路径探析 ｜ 省部级二等奖</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/sanchuang-yunqishuzhi.pdf" target="_blank" rel="noopener">全国大学生电子商务“创新、创意及创业”挑战赛 · 项目计划书</a></h3>
+          <span class="item__meta">100 页 · 7.9 MB</span>
+        </div>
+        <p class="item__sub">云栖数智——“代运营 + IP 孵化 + 人才培育”三轮驱动乡村文旅破圈 ｜ 省部级二等奖（本人任团队营销经理）</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/tiaozhanbei-sihaichuansheng.pdf" target="_blank" rel="noopener">“挑战杯”首都大学生创业计划竞赛“青振京郊”乡村振兴专项赛 · 项目计划书</a></h3>
+          <span class="item__meta">98 页 · 6.3 MB</span>
+        </div>
+        <p class="item__sub">四海传声——从账号代运营到人才培训的一站式孵化器 ｜ 省部级三等奖</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/mpacc-case.pdf" target="_blank" rel="noopener">第十二届 MPAcc 学生案例大赛 · 案例分析报告</a></h3>
+          <span class="item__meta">20 页 · 4.8 MB</span>
+        </div>
+        <p class="item__sub">围绕真实企业案例完成财务分析与管理诊断</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/zhiyuan-shangqixiangxing.pdf" target="_blank" rel="noopener">志愿项目设计大赛 · 项目计划书</a></h3>
+          <span class="item__meta">19 页 · 4.2 MB</span>
+        </div>
+        <p class="item__sub">商启乡兴——商科启蒙支教与乡村振兴实践计划 ｜ 校级二等奖</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/shijian-hanjia-jingyuan.pdf" target="_blank" rel="noopener">研究生寒假社会调研 · 调研报告</a></h3>
+          <span class="item__meta">27 页 · 0.4 MB</span>
+        </div>
+        <p class="item__sub">金融服务助力和美乡村建设的途径调研——以甘肃省靖远县为例 ｜ 团队成员</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title"><a href="https://huanghaining.pages.dev/assets/pdf/shijian-shuqi-yuanjiacun.pdf" target="_blank" rel="noopener">暑期社会实践 · 实践报告</a></h3>
+          <span class="item__meta">17 页 · 2.2 MB</span>
+        </div>
+        <p class="item__sub">苦寒已尽，梅香正盛——探索袁家村破局之路</p>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <h2>科研与论文</h2>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">本科毕业论文：《“一带一路”倡议如何影响中国企业财务风险》</h3>
+          <span class="item__meta">指导教师：刘慧龙</span>
+        </div>
+        <ul>
+          <li>以沪深 A 股 2010—2022 年数据为样本，采用双重差分法（DID）识别“一带一路”倡议对企业财务风险的净效应。</li>
+          <li>从创新成本、信息披露、对外投资三条作用机制检验影响路径，数据来源为 CSMAR 与同花顺。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">“正大杯”全国大学生市场调查与分析大赛 · 省部级二等奖</h3>
+          <span class="item__meta">2026.04</span>
+        </div>
+        <p class="item__sub">课题：惜食新经济——“剩菜盲盒”消费者价值感知与行业优化路径</p>
+        <ul>
+          <li>混合研究与数据采集：采用社交媒体爬虫 + 问卷调查 + 深度访谈 + 焦点小组三角验证方法；通过 Python 爬取微博、小红书等平台相关博文 4167 条，清洗后获有效文本 1592 条；独立设计并回收问卷 426 份，有效问卷 387 份，有效回收率 90.85%；完成消费者 6 名、商家及平台从业者 4 名、专家学者 2 名深度访谈，并组织 1 组高校大学生焦点小组访谈。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">“挑战杯”首都大学生课外学术科技作品竞赛 · 省部级三等奖</h3>
+        </div>
+        <ul>
+          <li>研究设计与多维调研：以 Tape 匿名提问箱为切口，聚焦大学生匿名社交行为与心理机制，采用文献梳理、问卷调查、内容分析等方法，构建覆盖行为特征、心理动机与社交影响的多维调研体系。</li>
+          <li>数据采集与定量分析：线上线下多渠道发放问卷，回收有效问卷 384 份，从使用频次、提问动机、坦诚程度、社交影响等维度进行量化刻画，并对问答实例进行内容分析与分类编码。</li>
+          <li>理论建模与学术创新：参考马斯洛需求层级理论，构建“娱乐消遣—沟通交流—自我价值探索”大学生匿名社交需求金字塔模型；结合戈夫曼自我呈现理论分析印象管理、关系模糊化与隐私边界问题。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="campus">
+      <h2>学生工作</h2>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">会计专硕第一党支部 · 宣传委员</h3>
+          <span class="item__meta">2025.09 – 2026.09</span>
+        </div>
+        <p class="item__sub">党建宣传：负责支部党建宣传与新媒体运营，完成宣传及推送 10 余次，带领支部开展学习实践并获得党支部风采展示大赛二等奖。</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">校研究生会 · 学生骨干</h3>
+          <span class="item__meta">2025.09 – 2026.06</span>
+        </div>
+        <ul>
+          <li>统筹协调：作为大型论坛外联主要负责人联络 20 所高校，邀请 13 名校内外嘉宾报告，协调总进度并策划分论坛，覆盖人数 300+。</li>
+          <li>活动组织：策划组织模拟面试、公考讲座、企业走访 3 场校级职业发展活动，联络赞助价值约 2000 元，获评“优秀研会成员”。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">校党委宣传部直属融媒体中心 · 采编部副部长</h3>
+          <span class="item__meta">2021.09 – 2022.09</span>
+        </div>
+        <p class="item__sub">内容编审：负责校报二版排版、编辑与校对，运营对外经济贸易大学新闻网后台，完成编发审核稿件 50 余次，保障内容规范准确。</p>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">校国旗护卫队 · 副队长</h3>
+          <span class="item__meta">2022.09 – 2023.09</span>
+        </div>
+        <ul>
+          <li>日常勤务与仪式执行：累计完成日常升降旗 80 余次；牵头组织并参与“一二九”升旗、运动会出旗等大型仪式活动，主持换届仪式，统筹人员调度、流程彩排与现场执行，保障各项仪式零差错完成。</li>
+          <li>团队建设与人才培养：负责队伍招新、新成员发展、日常训练与梯队培养，协助队长开展日常管理、考勤记录与任务分配。</li>
+          <li>主题活动与国防教育：组织退伍学生宣讲、国家安全宣传等主题活动，提升校园国防意识与爱国氛围。</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item__head">
+          <h3 class="item__title">国际商学院 20 级年级工作部 · 委员</h3>
+          <span class="item__meta">2020.09 – 2024.06</span>
+        </div>
+        <ul>
+          <li>综合测评组织：连续三年协助年级综合评定工作，对接 2 个班级的综合加分材料收集与初审，建立材料清单与审核台账。</li>
+          <li>加分材料审核：依据学院综测细则，对加分证明材料逐项核验，比对证书、活动记录等原始凭证，识别并修正漏报、错报、重复加分等问题。</li>
+          <li>数据统计与公示：运用 Excel 对加分数据进行汇总、排序与复核，协助完成成绩核算与结果公示。</li>
+        </ul>
+      </div>
+    </section>
+
     <section class="section" id="volunteer">
       <h2>志愿与实践</h2>
 
@@ -378,65 +413,41 @@
       </div>
     </section>
 
-    <section class="section" id="files">
-      <h2>项目文件</h2>
-      <p class="section__lead">以下为本人参与完成的项目文件，点击标题可在线阅读或下载 PDF（新标签页打开）。含他人联系方式的部分已做脱敏处理。</p>
+    <section class="section" id="skill">
+      <h2>技能与证书</h2>
 
       <div class="item">
         <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/zhengdabei-shitiao.pdf" target="_blank" rel="noopener">“正大杯”全国大学生市场调查与分析大赛 · 研究报告</a></h3>
-          <span class="item__meta">81 页 · 6.1 MB</span>
+          <h3 class="item__title">语言能力</h3>
         </div>
-        <p class="item__sub">惜食新经济——“剩菜盲盒”消费者价值感知与行业优化路径探析 ｜ 省部级二等奖</p>
+        <p class="item__sub">
+          <span class="tag">CET-6 576 分</span>
+          <span class="tag">CET-4 542 分</span>
+          <span class="tag">普通话一级乙等 93.4</span>
+        </p>
       </div>
 
       <div class="item">
         <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/sanchuang-yunqishuzhi.pdf" target="_blank" rel="noopener">全国大学生电子商务“创新、创意及创业”挑战赛 · 项目计划书</a></h3>
-          <span class="item__meta">100 页 · 7.9 MB</span>
+          <h3 class="item__title">专业技能</h3>
         </div>
-        <p class="item__sub">云栖数智——“代运营 + IP 孵化 + 人才培育”三轮驱动乡村文旅破圈 ｜ 省部级二等奖（本人任团队营销经理）</p>
+        <p class="item__sub">
+          <span class="tag">全国计算机等级考试二级</span>
+          <span class="tag">会计专业技术初级资格</span>
+          <span class="tag">中职会计教师资格</span>
+          <span class="tag">初中数学教师资格</span>
+          <span class="tag">C1 驾驶证</span>
+        </p>
+        <ul>
+          <li>熟练使用 Excel 数据透视表、VLOOKUP、MATCH 处理大批量财务数据；熟悉 SAP、久其等财务软件。</li>
+          <li>具备微信公众号推送制作与剪映视频剪辑能力；能独立完成会议记录、绩效自评报告与预算报告撰写。</li>
+        </ul>
       </div>
+    </section>
 
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/tiaozhanbei-sihaichuansheng.pdf" target="_blank" rel="noopener">“挑战杯”首都大学生创业计划竞赛“青振京郊”乡村振兴专项赛 · 项目计划书</a></h3>
-          <span class="item__meta">98 页 · 6.3 MB</span>
-        </div>
-        <p class="item__sub">四海传声——从账号代运营到人才培训的一站式孵化器 ｜ 省部级三等奖</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/mpacc-case.pdf" target="_blank" rel="noopener">第十二届 MPAcc 学生案例大赛 · 案例分析报告</a></h3>
-          <span class="item__meta">20 页 · 4.8 MB</span>
-        </div>
-        <p class="item__sub">围绕真实企业案例完成财务分析与管理诊断</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/zhiyuan-shangqixiangxing.pdf" target="_blank" rel="noopener">志愿项目设计大赛 · 项目计划书</a></h3>
-          <span class="item__meta">19 页 · 4.2 MB</span>
-        </div>
-        <p class="item__sub">商启乡兴——商科启蒙支教与乡村振兴实践计划 ｜ 校级二等奖</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/shijian-hanjia-jingyuan.pdf" target="_blank" rel="noopener">研究生寒假社会调研 · 调研报告</a></h3>
-          <span class="item__meta">27 页 · 0.4 MB</span>
-        </div>
-        <p class="item__sub">金融服务助力和美乡村建设的途径调研——以甘肃省靖远县为例 ｜ 团队成员</p>
-      </div>
-
-      <div class="item">
-        <div class="item__head">
-          <h3 class="item__title"><a href="assets/pdf/shijian-shuqi-yuanjiacun.pdf" target="_blank" rel="noopener">暑期社会实践 · 实践报告</a></h3>
-          <span class="item__meta">17 页 · 2.2 MB</span>
-        </div>
-        <p class="item__sub">苦寒已尽，梅香正盛——探索袁家村破局之路</p>
-      </div>
+    <section class="section" id="hobby">
+      <h2>兴趣爱好</h2>
+      <p class="section__lead">钢琴、声乐、朗诵。</p>
     </section>
 
   </main>
